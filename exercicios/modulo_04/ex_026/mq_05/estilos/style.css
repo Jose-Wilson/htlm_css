@@ -25,7 +25,7 @@ header > h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu ul {
@@ -40,6 +40,20 @@ menu > ul > li > a {
     background-color: rgba(54, 54, 54, 0.637);
     color: white;
     border-top: 2px solid gray;
+}
+
+i#burguer {
+    background-color: rgb(48, 45, 45);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
 }
 
 menu > ul > li > a:hover {
